@@ -1,0 +1,34 @@
+{
+  "name": "dont-run-it",
+  "owner": {
+    "name": "Buddy"
+  },
+  "metadata": {
+    "description": "Marketplace with a security-review skill for AI agents — static analysis only, never executes the reviewed code",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "security-review",
+      "source": "./",
+      "strict": false,
+      "description": "Static security review skill for AI agents. Reviews code for vulnerabilities (OWASP top 10, secrets, injection, auth issues) without ever running it.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Rafal Sztwiorok"
+      },
+      "repository": "https://github.com/buddy/dont-run-it-skill",
+      "license": "MIT",
+      "keywords": [
+        "security",
+        "security-review",
+        "static-analysis",
+        "vulnerability",
+        "owasp",
+        "code-review",
+        "audit"
+      ],
+      "category": "security"
+    }
+  ]
+}
