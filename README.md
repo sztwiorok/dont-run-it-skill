@@ -29,14 +29,14 @@ Claude Code plugin marketplace containing the **`security-review`** skill: a sta
 Add the marketplace, then install the plugin:
 
 ```bash
-claude plugin marketplace add buddy/dont-run-it-skill
+claude plugin marketplace add sztwiorok/dont-run-it-skill
 claude plugin install security-review@dont-run-it
 ```
 
 ### Local development
 
 ```bash
-git clone https://github.com/buddy/dont-run-it-skill.git ~/dont-run-it-skill
+git clone https://github.com/sztwiorok/dont-run-it-skill.git ~/dont-run-it-skill
 cd ~/my-project
 claude --plugin-dir ~/dont-run-it-skill
 ```
